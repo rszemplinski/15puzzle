@@ -1,0 +1,1 @@
+type XYCoords = [number, number];

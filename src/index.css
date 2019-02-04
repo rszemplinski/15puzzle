@@ -1,0 +1,21 @@
+#puzzle-container {
+    border: 1px solid gray;
+    position: relative;
+}
+
+.puzzle-tile {
+    margin: 0;
+    position: absolute;
+    transition: left 250ms ease, top 250ms ease;
+    user-select: none;
+    box-sizing: border-box;
+    border: 1px solid white;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
